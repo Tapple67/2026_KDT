@@ -1,0 +1,48 @@
+/* h2{color: burlywood; }
+
+div > h2 {color: aquamarine;}
+
+div > h3 {color : green}
+
+div h3 {background-color: aqua;}
+
+.title { 
+    font-family: "궁서";
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'YeogiOttaeJalnan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+    font-weight: normal;
+    font-display: swap;
+}
+.본문구역{
+    font-family: 'YeogiOttaeJalnan';
+    color: cornflowerblue;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    line-height: 160%;
+}
+
+/* .작성자{
+    text-align: center;
+    text-decoration: underline overline line-through;
+    text-shadow: 10px 10px 3px;
+    color: gray;
+    color: rgb(255,255,255);
+    color: rgb(255,255,255, 0.8);
+    color: #008000;
+} */ 
+
+p{
+    text-align: center;
+    background-color: black;
+
+}
+
+*{
+    color:white;
+}

@@ -1,0 +1,31 @@
+body > div{
+    color: blue;
+    font-family: 'YeogiOttaeJalnan';
+}
+
+h3, h2{
+    color: red;
+    text-decoration: underline overline line-through;
+    text-align: center;
+    font-family: 'YeogiOttaeJalnan';
+    text-shadow: 0px 1px 0px;
+}
+
+@font-face {
+    font-family: 'YeogiOttaeJalnan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+    font-weight: normal;
+    font-display: swap;
+}
+
+h1{
+    font-family: "궁서";
+
+}
+
+@font-face {
+    font-family: 'YeogiOttaeJalnan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+    font-weight: normal;
+    font-display: swap;
+}

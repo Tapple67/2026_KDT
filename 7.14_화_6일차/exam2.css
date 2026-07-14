@@ -1,0 +1,81 @@
+
+*{
+    border : solid 1px red;
+    padding: 1px;
+}
+
+.BOX1{
+    border-top: solid orange;
+    border-right: dashed;
+    border-left: dotted;
+    border-bottom: double;
+    border-radius: 5px 10px 15 px 5px;
+    box-shadow: 3px 4px 5px;
+    
+    text-align: center;
+    width: 100px;
+    height: 100px;
+}
+
+.BOX2{
+    text-align: center;
+}
+
+.BOX2> input {
+    width: 100px; height: 100;
+    border-radius: 10px;
+}
+
+.BOX3{
+    padding: 10px;
+    margin: 10px;
+
+}
+.BOX4{
+    padding: 10px 15px 20px 25px;
+    margin: 10px 15px
+}
+
+.BOX5{
+    margin: 0 auto;
+    width: 50px;
+    text-align: center;
+
+    color: aqua;
+    background-color: beige;
+}
+
+
+.s1{
+    display: inline;
+    width: 100px; height: 100px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.s2{
+    display: block;
+    width: 100px; height: 100px;
+    padding: 20px;
+    margin: 20px;
+}
+
+
+.s3{
+    display: inline-block;
+    width: 100px; height: 100px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.s4{
+    display: none;
+}
+
+.BOX6, .BOX7{
+    width: 500px; padding: 20px;
+}
+
+
+.BOX6{box-sizing: content-box;}
+.BOX7{box-sizing: border-box;}
