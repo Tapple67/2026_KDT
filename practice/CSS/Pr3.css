@@ -1,0 +1,38 @@
+
+
+.bg{
+    text-align: center;
+    vertical-align: auto;
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    box-sizing:border-box;
+    box-shadow: 0px 5px 10px ;
+    border-radius: 5px;
+    color: pink;
+}
+
+h1{
+    color: black;
+}
+
+
+.login{
+    display: grid;
+    place-items: center;
+    
+}
+
+button{
+    background-color: blue;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+}
+
+input{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}

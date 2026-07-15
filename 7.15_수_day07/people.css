@@ -1,0 +1,10 @@
+.t1{
+    border-collapse: collapse;
+}
+
+.t1 th,
+  .t1 td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+  }

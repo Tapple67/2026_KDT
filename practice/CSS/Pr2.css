@@ -1,0 +1,24 @@
+.s1{
+    display: inline-block;
+    color:chocolate;
+    margin: 10px;
+    font-size: 30px;
+    
+}
+
+
+span{
+    color:chocolate;
+    
+}
+
+div{
+    background-color: cadetblue;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+img{
+    padding: 10px;
+}

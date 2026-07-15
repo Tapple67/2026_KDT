@@ -1,0 +1,17 @@
+div{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    width: 400px;
+}
+
+
+.box2{
+    width: 390px;
+    padding-left: 10px;
+    border: 1px solid black;
+}
+
+a{
+    color:gold;
+}
