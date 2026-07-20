@@ -5,7 +5,9 @@
 
 a{
     text-decoration: none;
-    color: black;}
+    color: black;
+}
+    
 
 li{ list-style-type: none;} /*li 항목 글머리 제거*/
 
@@ -102,10 +104,13 @@ p{
     margin: 0 auto;
     display: flex;
     align-items: center;
+    text-align: center;
     justify-content: space-between;
 }
 
 
 .fo-right > ol > li{
     color: white;
+    
+    font-size: 10px;
 }
