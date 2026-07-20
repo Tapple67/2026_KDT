@@ -1,6 +1,4 @@
- const serviceKey = "c0b08a09682c091d899760607978777dcd147795fc926b9ca8a66a3e304ab0d6";
 
-const url = new URL("https://api.odcloud.kr/api/3044322/v1/uddi:0b4fecb3-841d-407b-8398-82350407d790?page=1&perPage=22");
 
 let response = {"currentCount":22,"data":[
     {"데이터기준일자":"2026-01-31","동별":"부평1동","세대수":17300,"인구수(계)":34448,"인구수(남)":16521,"인구수(여)":17927},
