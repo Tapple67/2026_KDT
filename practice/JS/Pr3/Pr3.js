@@ -90,59 +90,59 @@ if (fruitList.includes(input)) {
 // }
 
 
-/* 문제 7 */
-let num4 = prompt();
-let num5 = prompt();
-let num6 = prompt();
+// /* 문제 7 */
+// let num4 = prompt();
+// let num5 = prompt();
+// let num6 = prompt();
 
-if(num4>num5){
-    let temp = num4;
-    num4 = num5;
-    num5 = temp;
-}
+// if(num4>num5){
+//     let temp = num4;
+//     num4 = num5;
+//     num5 = temp;
+// }
 
 
-if(num5>num6){
-    let temp = num5;
-    num5 = num6;
-    num6 = temp;
-}
+// if(num5>num6){
+//     let temp = num5;
+//     num5 = num6;
+//     num6 = temp;
+// }
 
-if(num6>num4){
-    let temp = num6;
-    num6 = num4;
-    num4 = temp;
-}
+// if(num6>num4){
+//     let temp = num6;
+//     num6 = num4;
+//     num4 = temp;
+// }
 
-console.log(num4 + num5 + num6);
+// console.log(num4 + num5 + num6);
 
 
 /* 문제 8 */
 
-// let A = prompt('플레이어 A:');
-// let B = prompt('플레이어 B:');
+let A = prompt('플레이어 A:');
+let B = prompt('플레이어 B:');
 
-// if(A == (B+1) %3 )
-//   console.log("A 승");
-// else if (A==B)
-//   console.log("무승부");
-// else
-//   console.log("B 승");
+if(A == (B+1) %3 )
+  console.log("A 승");
+else if (A==B)
+  console.log("무승부");
+else
+  console.log("B 승");
 
 
 /* 문제 9*/
-// let carArray = ['250어7142', '142가7415', '888호8888']
-// let locationArray = [ 'A1','B1','C2'];
-// let input = prompt();
+let carArray = ['250어7142', '142가7415', '888호8888']
+let locationArray = [ 'A1','B1','C2'];
+let input = prompt();
 
-// A = carArray.indexOf(input);
-// console.log(locationArray[A])
+A = carArray.indexOf(input);
+console.log(locationArray[A])
 
 
 /* 문제 10 */
-// let courseList = ['수학','영어','과학','국어'];
+let courseList = ['수학','영어','과학','국어'];
 
-// let input = prompt('제외할 과목을 입력하세요');
-// A = courseList.indexOf(input)
-// courseList.splice(A,1)
-// console.log(courseList);
+let input = prompt('제외할 과목을 입력하세요');
+A = courseList.indexOf(input)
+courseList.splice(A,1)
+console.log(courseList);
