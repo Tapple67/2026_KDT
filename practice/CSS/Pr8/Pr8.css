@@ -1,4 +1,6 @@
-
+*{
+    border: 1px solid black;
+}
 
 
 .header{
@@ -60,13 +62,16 @@
     font-weight: bolder;
 }
 
-.icon_menu>div>div{
-    width:450px;
+
+.icon_menu>div{
+    display: flex;
+    justify-content: space-between;
 }
 
 .촬영스튜디오{
     background-color:gainsboro;
 }
+
 .촬영스튜디오>div{
     width:1000px;
     display: flex;
