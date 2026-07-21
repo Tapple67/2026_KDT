@@ -1,0 +1,40 @@
+*{
+    border: 1px solid black;
+}
+
+.footer{
+    background-color:#06334f ;
+}
+.in-footer{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.footer-1{
+    display: flex;
+    justify-content: left;
+    margin: 0 auto;
+
+    list-style-type: none;
+    color: white;
+    padding-left: 0px;
+}
+
+.footer-1 > li{
+    margin-right: 15px ;
+}
+
+
+.footer-2{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+
+}
+
+.p{
+   margin-top: 5px;    /* 위쪽 여백 조절 */
+  margin-bottom: 5px; 
+   
+   
+}
