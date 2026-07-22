@@ -95,16 +95,14 @@ let html =''
 function renderProducts(){
     for(let i = 0; i<products.length; i++){
         
-        html += `       
-            <h4>  ${products[i].name} </h4>
-                
-        
-        
-        `
+        html += `<h4>  ${products[i].name} </h4>`
     }
+    
+    
+    document.querySelector('div').innerHTML(html);
 }
 
-document.querySelector('div').innerHTML(html);
+
 
 
 /* 문제 7*/
@@ -130,6 +128,24 @@ function calculator(x,y,z){
 
 console.log(calculator(num1,num2,operator));
 
+/* 문제8 */
+let todoList=['장보기', '운동하기'];
+let html1 =''
+function renderList(){
+    for(let i =0; i<todoList.length; i++){
+        let list = todoList[i];
+
+        html1 += `<li>${list}</li>`
+
+    }
+
+    document.querySelector('ul').innerHTML(html1);
+}
+
+renderList()
+
+
+/* 문제9 */
 
 
 
