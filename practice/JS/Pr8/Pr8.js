@@ -86,7 +86,7 @@ function productAdd(){
     let img = document.querySelector(".image").files[0];
 
     if(category == 'disabled'){
-        alert("카테고리를 선택해주세요");
+        alert("카테고리를 선택해주세요");   
         return;
     }
 

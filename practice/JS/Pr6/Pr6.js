@@ -139,13 +139,29 @@ function renderList(){
 
     }
 
-    document.querySelector('ul').innerHTML(html1);
+    document.querySelector('ul').innerHTML = html1;
 }
 
 renderList()
 
 
 /* 문제9 */
+let age = prompt('나이 입력:');
 
+function getTiketPrice(x){
+    if(x<8){
+        console.log('무료');
+    }
+    else if(x>=8 && x<=19){
+        console.log('5000원');
+
+    }
+    else{
+        console.log('5000원');
+
+    }
+}
+
+getTiketPrice(age);
 
 

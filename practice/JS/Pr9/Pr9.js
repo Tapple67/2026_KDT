@@ -51,6 +51,7 @@ function teamAdd(){
     teamList.push(result);
 
     teamPrint();
+    workerPrint(); 
     console.log(teamList);
     return;
 }
@@ -65,6 +66,7 @@ function teamUpdate(tcode){
         }
     }
    teamPrint();
+   workerPrint(); 
     return;
 }
 
@@ -75,6 +77,7 @@ function teamDelete(tcode){
         }
     }
     teamPrint();
+    workerPrint(); 
     return;
 }
 
@@ -107,8 +110,23 @@ function workerPrint(){
                         <a href="#" class="link-delete" onClick="workerDelete(${person.tcode})">삭제</a>
                     </td>
                 </tr>`
+
+    }
+
+    let select= document.querySelector('.form-group > select')
+    let html1 = ''
+    for(let i=0; i <= teamList.length-1; i++){
+
+
+        html1 += ` <select>
+                <option disabled selected hidden>부서를 선택하세요</option>
+                <option>${teamList[i].tname}</option>
+            
+                    </select> `
     }
     tbody.innerHTML = html
+    select.innerHTML = html1
+
 }
 
 //수정workerUpdate 
