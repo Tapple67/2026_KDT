@@ -1,0 +1,54 @@
+.bg{
+    background-color: red;
+    margin-left: 300px;
+    width: 500px;
+    height: 350px;
+    position: relative;
+    z-index: -1;
+}
+
+.box{
+    width: 100px; height: 50px;
+    background-color: yellow; 
+    z-index: 1;
+    border-radius: 15%;
+    border: 1px solid yellow;
+    text-align: center;
+}
+
+.box1{
+   position: absolute;
+   top: 50px;
+   left: 200px;
+}
+
+.box6{
+   position: absolute;
+   top: 250px;
+   left: 200px;
+}
+
+.box2{
+    position: absolute;
+    top: 30%;
+    left: 15%;
+}
+
+.box3{
+    position: absolute;
+    top: 30%;
+    right: 15%;
+}
+
+
+.box4{
+    position: absolute;
+    bottom: 30%;
+    left: 15%;
+}
+
+.box5{
+    position: absolute;
+    bottom: 30%;
+    right: 15%;
+}

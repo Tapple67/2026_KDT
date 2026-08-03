@@ -157,7 +157,7 @@ function getTiketPrice(x){
 
     }
     else{
-        console.log('5000원');
+        console.log('10000원');
 
     }
 }

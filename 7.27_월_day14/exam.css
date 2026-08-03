@@ -1,0 +1,41 @@
+.basicTable{
+    border: 1px solid black;
+    width: 500px;
+}
+
+.basicTable th , .basicTable td{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+/* 형제 선택자*/
+
+.basicTable td:nth-child( 1 ){
+    background-color: aqua;
+}
+
+.basicTable td:nth-child( 3 ){
+    background-color: beige;
+}
+
+.basicTable td[colspan]{
+    text-align: right; 
+}
+
+.styleTable{
+    width: 700px;
+    border-collapse:collapse;
+}
+
+.styleTable th , .styleTSable td{
+    border: 1px solid black;
+}
+
+.styleTable > tbody > tr:nth-of-type(odd){
+    background-color: red;
+}
+
+.styleTable > tbody >tr:hover{
+    background-color: gray;
+    color: white;
+}

@@ -1,0 +1,71 @@
+.imgBox{
+    width: 300px; height: 300px;
+    border: 1px solid red; margin-bottom: 20px;;
+}
+
+.imgBox > img{
+    width: 100%;
+}
+
+.imgBox > img{
+    width: 100%; height: 100%;    
+}
+
+
+.img1{
+    object-fit: fill;
+}
+.img2{
+    object-fit: contain;
+}
+
+.img3{
+    object-fit: cover;
+}
+.img4{
+    object-fit: none;
+}
+
+.img5{
+    object-fit: cover; object-position: right;
+}
+
+.img6{
+    object-fit: contain; object-position: right;
+}
+
+.box{
+    border: 1px solid red; padding: 30px;
+}
+
+.back1{
+    background-color: blue;
+    background-color: rgb(0, 0, 255);
+    background-color: rgba(0, 0, 255, 0.5);
+    background-color: #0000ff;
+}
+
+.back2{
+    background-image: url(./실습이미지/배경.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.back3{
+    background-image: url(./실습이미지/패턴.jpg);
+    background-repeat: no-repeat;
+}
+
+.back4{
+    background-image: url(./실습이미지/배경.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.box2{
+    width: 100px; height: 100px;
+    background-image: url(./실습이미지/아이콘들.png);
+    background-repeat: no-repeat;
+    background-position: -78px -503px;
+}

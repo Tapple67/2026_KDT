@@ -1,0 +1,68 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: red;
+}
+
+a:visited{
+    color:blueviolet;
+}
+
+a:active{color:blue;}
+
+.box1::before{
+    content: "[가상요소 앞구역]";
+}
+
+.box1::after{
+    content: "[가상요소 앞구역]";
+}
+
+li{
+    list-style: none;
+}
+.box2 > li::before{
+    content: "😊";
+
+}
+
+/* .box2 > li::after{
+    content: url("/이미지,데이터 폴더/pika.jfif");
+} */
+
+
+li{
+    list-style: none;
+}
+
+.header{
+    background-color: beige;
+
+}
+
+.header > ul{
+    display: flex;
+    justify-content: center;
+
+}
+
+.mainmenu > li{ 
+    padding: 10px;
+    position: relative;
+    top: 10px;
+}
+.submenu{
+    position: absolute;
+    top:30px; left:-5px;
+    padding: 10px;
+    background-color: beige;
+    width: 50px;
+    display: none;
+}
+
+.mainmenu > li:hover .submenu{
+    display: block;
+}

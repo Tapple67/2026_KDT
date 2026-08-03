@@ -1,0 +1,84 @@
+*{
+    border: 1px solid black;
+}
+/* 
+body{
+    width: 1280px;
+} */
+ol{
+    list-style: none;
+}
+
+.header-1  ol{
+    display: flex;
+    justify-content: right;
+}
+
+.header-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top:0px
+}
+
+.header-2 .h-2-1{
+    display: flex;
+    justify-content: left;
+}
+
+
+.header-2 ol{
+    display: flex;
+    justify-content: left;
+}
+
+.header-2 > ol > li{
+    margin-left: 10px;
+}
+
+.header-2 .h-2-2{
+    display: flex;
+    justify-content: right;
+    height: 30px;
+}
+
+
+.main-text{
+    display:block;
+    text-align: center;
+}
+
+.main-list{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+
+.main-list > div img{
+    width: 100%;
+}
+
+.main-list > div{
+    width: 20%;
+}
+    
+    
+
+
+#size{
+    color: gray;
+}
+
+#price{
+    display: flex;
+    justify-content: space-between;
+}
+
+.best::before{
+    content: url("./img/best.jpg") ;
+}
+.best::after{
+    content: url("./img/rush_of_order.jpg") ;
+}
+
