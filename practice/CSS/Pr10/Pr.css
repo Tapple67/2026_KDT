@@ -25,14 +25,13 @@ ul{
 .list > ul > li {
     width: 40px;
     height: 40px;
-    background-color:beige;
     border-radius: 50%;
     font-size: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 5px
-
+    margin-bottom: 5px;
+    color: blue;
 }
 .list{
     position:absolute;
@@ -43,4 +42,21 @@ ul{
 
 .box:hover > .list{
     display: block;
+
+}
+
+.top{
+    background-color: #e7f0ff;
+}
+
+.naver{
+
+    background-color: #eafff2;
+}
+
+.help{
+    background-color: #fef2e8;
+}
+.chat{
+    background-color: #f3e9ff;
 }
